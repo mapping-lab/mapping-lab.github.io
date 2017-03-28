@@ -9,11 +9,11 @@ body {
 .container {
   position: absolute;
   display: block;
-  width: 350px;
+  width: 370px;
   height: 300px;
   top: 50%;
   left: 50%;
-  margin: -150px 0 0 -175px;
+  margin: -150px 0 0 -185px;
   text-align: center;
 }
 .container p {
