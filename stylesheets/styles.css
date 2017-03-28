@@ -2,20 +2,26 @@ body {
   background-color: #fff;
   padding: 0px;
   margin: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #727272;
   font-weight: 300;
 }
-.logo {
+.container {
   position: absolute;
   display: block;
-  width: 200px;
-  height: 180px;
+  width: 350px;
+  height: 300px;
   top: 50%;
   left: 50%;
-  margin: -90px 0 0 -100px;
+  margin: -150px 0 0 -175px;
   text-align: center;
 }
-.logo img {
-  background-color: #37c1d2;
+.container p {
+  text-align: center;
+}
+.container span {
+  font-weight: 700;
+}
+.container img {
+  width: 80px;
 }
