@@ -11,7 +11,6 @@ body {
   color: #fff;
   background-color: #14152d;
   width: 100%;
-  float: left;
   text-align: center;
 }
 .header .logo img {
@@ -54,12 +53,14 @@ body {
 .main-content {
   display: block;
   width: 960px;
-  margin: 0 auto;
+  clear: both;
+  margin: 30px auto 0;
   min-height: 400px;
   /*background-color: #C0FFEE;*/
 }
 .footer {
   display: block;
+  clear: both;
   width: 960px;
   margin: 0 auto;
   border-top: 1px solid rgba(71, 70, 98, 0.25);
@@ -69,4 +70,38 @@ body {
 .text-footer {
   font-size: 12px;
   color: #A3A3B0;
+}
+.main-content .cards {
+  width: 990px;
+}
+.main-content div.card {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.main-content .card {
+  display: block;
+  float: left;
+  width: 280px;
+  margin: 0 30px 30px 0;
+  height: 400px;
+  padding: 10px;
+  background-color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  box-shadow: 0 0 40px 0 rgba(64, 47, 103, 0.10);
+}
+.main-content .card:active,
+.main-content .card:visited,
+.main-content .card:hover,
+.main-content .card:focus {
+  text-decoration: none;
+}
+.main-content .card img {
+  width: 100%;
+}
+.main-content .card h2 {
+  text-decoration: none;
+}
+.main-content .card p {
+
 }
