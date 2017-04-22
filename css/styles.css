@@ -110,14 +110,24 @@ body {
   font-size: 13px;
   font-weight: 700;
   text-align: center;
+  opacity: .8;
 }
 .main-content .card p {
   text-decoration: none;
   color: #474662;
   font-size: 12px;
   text-align: center;
+  opacity: .8;
 }
 .main-content .card:hover h2,
 .main-content .card:hover p {
-  opacity: .8;
+  opacity: 1;
+}
+.main-content div.card {
+  color: #A3A3B0;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 300px;
+  vertical-align: middle;
 }
