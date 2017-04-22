@@ -136,4 +136,5 @@ body {
 }
 .main-content div.card:hover > span {
   display: initial;
+  opacity: .3;
 }
