@@ -131,3 +131,9 @@ body {
   line-height: 300px;
   vertical-align: middle;
 }
+.main-content div.card > span {
+  display: none;
+}
+.main-content div.card:hover > span {
+  display: initial;
+}
