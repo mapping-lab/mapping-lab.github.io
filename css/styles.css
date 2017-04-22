@@ -117,7 +117,6 @@ body {
   font-size: 12px;
   text-align: center;
 }
-.main-content .card:hover img,
 .main-content .card:hover h2,
 .main-content .card:hover p {
   opacity: .8;
