@@ -1,5 +1,5 @@
 body {
-  background-color: #edf7fc;
+  background-color: #FFFFFD;
   padding: 0px;
   margin: 0px;
   font-family: 'Lato', sans-serif;
@@ -48,7 +48,7 @@ body {
 .footer .links ul li img {
   width: 15px;
   vertical-align: middle;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .main-content {
   display: block;
@@ -65,6 +65,71 @@ body {
   border-top: 1px solid rgba(71, 70, 98, 0.25);
   margin-top: 30px;
   text-align: center;
+}
+.newsletter p {
+  font-size: 12px;
+  color: #A3A3B0;
+}
+div #mc_embed_signup {
+    clear: left;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+#mc_embed_signup input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: 'Lato', sans-serif;
+}
+div #mc_embed_signup input.email {
+    font-size: 11px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #14152d;
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 22px;
+    padding: 0px 0.4em;
+    display: inline-block;
+    margin: 0;
+    width: 300px;
+    vertical-align: top;
+}
+#mc_embed_signup .clear {
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+#mc_embed_signup .button {
+    font-size: 11px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    letter-spacing: .03em;
+    color: #fff;
+    box-sizing: border-box;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 18px;
+    display: inline-block;
+    margin: 0;
+    background-color: #A3A3B0;
+}
+#mc_embed_signup .button:hover {
+    background-color: #474763;
 }
 .text-footer {
   font-size: 12px;
@@ -103,6 +168,7 @@ body {
 }
 .main-content .card img {
   width: 100%;
+  vertical-align: middle;
 }
 .main-content .card h2 {
   text-decoration: none;
