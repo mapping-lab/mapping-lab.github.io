@@ -1,0 +1,206 @@
+body {
+  background-color: #FFFFFD;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  font-weight: 300;
+}
+.header {
+  padding: 30px 0;
+  color: #fff;
+  background-color: #14152d;
+  width: 100%;
+  text-align: center;
+}
+.header .logo img {
+  height: 45px;
+  padding: 5px;
+}
+.header .about {
+  font-size: 14px;
+  color: #f2f3fc;
+  opacity: 0.4;
+}
+.links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.links ul li {
+  margin: 0 30px 0 0;
+  padding: 0;
+  display: inline;
+}
+.links ul li:last-child {
+  margin: 0;
+}
+.links ul li img {
+  width: 18px;
+  vertical-align: middle;
+}
+.footer .links ul li {
+  margin: 0 20px 0 0;
+}
+.footer .links ul li:last-child {
+  margin: 0;
+}
+.footer .links ul li img {
+  width: 15px;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+.main-content {
+  display: block;
+  width: 960px;
+  clear: both;
+  margin: 30px auto 0;
+  min-height: 400px;
+}
+.footer {
+  display: block;
+  clear: both;
+  width: 960px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(71, 70, 98, 0.25);
+  margin-top: 30px;
+  text-align: center;
+}
+.newsletter p {
+  font-size: 12px;
+  color: #A3A3B0;
+}
+div #mc_embed_signup {
+    clear: left;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+#mc_embed_signup input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: 'Lato', sans-serif;
+}
+div #mc_embed_signup input.email {
+    font-size: 11px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #14152d;
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 22px;
+    padding: 0px 0.4em;
+    display: inline-block;
+    margin: 0;
+    width: 300px;
+    vertical-align: top;
+}
+#mc_embed_signup .clear {
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+#mc_embed_signup .button {
+    font-size: 11px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    letter-spacing: .03em;
+    color: #fff;
+    box-sizing: border-box;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 18px;
+    display: inline-block;
+    margin: 0;
+    background-color: #A3A3B0;
+}
+#mc_embed_signup .button:hover {
+    background-color: #474763;
+}
+.text-footer {
+  font-size: 12px;
+  color: #A3A3B0;
+}
+.main-content .cards {
+  width: 990px;
+}
+.main-content div.card {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.main-content .card {
+  display: block;
+  float: left;
+  width: 280px;
+  margin: 0 30px 30px 0;
+  height: 300px;
+  padding: 10px;
+  background-color: #fff;
+  text-decoration: none;
+  color: #474662;
+  border-radius: 4px;
+  box-shadow: 0 0 40px 0 rgba(64, 47, 103, 0.10);
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.main-content .card:active,
+.main-content .card:visited,
+.main-content .card:hover,
+.main-content .card:focus {
+  text-decoration: none;
+  color: #474662;
+}
+.main-content .card img {
+  width: 100%;
+  vertical-align: middle;
+}
+.main-content .card h2 {
+  text-decoration: none;
+  color: #474662;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  opacity: .8;
+}
+.main-content .card p {
+  text-decoration: none;
+  color: #474662;
+  font-size: 12px;
+  text-align: center;
+  opacity: .8;
+}
+.main-content .card:hover h2,
+.main-content .card:hover p {
+  opacity: 1;
+}
+.main-content div.card {
+  color: #A3A3B0;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 300px;
+  vertical-align: middle;
+}
+.main-content div.card > span {
+  display: none;
+}
+.main-content div.card:hover > span {
+  display: initial;
+  opacity: .3;
+}
