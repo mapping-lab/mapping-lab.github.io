@@ -223,6 +223,9 @@ section .our-work .work .description p {
     margin-bottom: 40px;
     text-align: center;
   }
+  section .what-we-do div:last-child {
+    margin-bottom: 0px;
+  }
 }
 
 
