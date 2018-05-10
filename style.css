@@ -1,0 +1,358 @@
+body {
+  background-color: #fff;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  color: #14162c;
+  font-weight: 300;
+}
+.container {
+  display: block;
+  width: 960px;
+  clear: both;
+  margin: 0 auto;
+}
+.header {
+  padding: 40px 0;
+  color: #edf7fb;
+  background-color: #14162c;
+  width: 100%;
+  text-align: center;
+}
+.header .logo img {
+  height: 115px;
+  padding: 25px;
+}
+.header .about {
+  font-size: 18px;
+  color: #f2f3fc;
+}
+.navigation {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation ul li {
+  margin: 0 30px 0 0;
+  padding: 0;
+  display: inline;
+}
+.navigation ul li:last-child {
+  margin: 0;
+}
+.navigation ul li img {
+  width: 18px;
+  vertical-align: middle;
+}
+.footer .navigation {
+  text-align: center;
+}
+.footer .navigation ul li {
+  margin-right: 20px;
+}
+.footer .navigation ul li:last-child {
+  margin: 0;
+}
+.footer .navigation ul li img {
+  width: 15px;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+.footer {
+  color: #fff;
+  background-color: #14162c;
+  display: block;
+  clear: both;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  float: left;
+  width: 100%;
+}
+.footer p {
+  margin: 20px auto;
+}
+.footer .navigation {
+  margin-bottom: 20px;
+}
+.newsletter {
+    clear: left;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+.newsletter input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.newsletter input.email,
+.newsletter .button {
+    font-size: 14px;
+    border: 1px solid #fff;
+    color: #14162c;
+    background-color: #fff;
+    height: 28px;
+    padding: 0px 18px;
+    line-height: 28px;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+.newsletter .button {
+    height: 30px;
+    background-color: #14162c;
+    color: #fff;
+}
+.newsletter input.email {
+  width: 300px;
+}
+.newsletter .clear {
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+.newsletter .button:hover {
+    background-color: #14162c;
+}
+section {
+  border-top: 1px solid #8c8d92;
+}
+section:first-child {
+  border-top: none;
+}
+section > h2 {
+  margin: 40px auto;
+  font-size: 58px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+section .more-info p {
+  text-align: justify;
+  margin: 40px 120px;
+  font-size: 28px;
+  line-height: 38px;
+}
+section .more-info p a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #e73933;
+  padding: 10px;
+  display: inline-block;
+}
+section .what-we-do {
+  margin-bottom: 40px;
+  float: left;
+  width: 100%;
+}
+section .what-we-do img {
+  height: 75px;
+}
+section .what-we-do div {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+section .what-we-do p {
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+section .our-work {}
+section .our-work .work {
+  margin-bottom: 40px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+section .our-work .work a {
+  color: inherit;
+  text-decoration: none;
+}
+section .our-work .work .description {
+  opacity: 0;
+  padding: 80px 0px;
+  background: rgba(255, 255, 255, 0.75);
+  transition: opacity 0.2s ease-in-out;
+}
+section .our-work .work .description:hover {
+  opacity: 1;
+}
+section .our-work .work .description h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+section .our-work .work .description p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 0 100px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    display: block;
+    width: 100%;
+    clear: both;
+    margin: 0 auto;
+  }
+  .navigation {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .header .logo img {
+    max-width: 75%;
+    padding: 0px 25px;
+  }
+  .header .about {
+    font-size: 18px;
+    padding: 0 10px;
+    color: #f2f3fc;
+  }
+  section > h2 {
+    margin: 40px auto;
+    font-size: 38px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+  }
+  section .more-info p {
+    text-align: center;
+    margin: 40px 10px;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  section .more-info p a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e73933;
+    padding: 10px;
+    display: inline-block;
+  }
+  section .our-work .work .description {
+    opacity: 1;
+  }
+  section .what-we-do {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  section .what-we-do div {
+    /*width: 100%;*/
+    /*float: left;*/
+    /*clear: both;*/
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .newsletter input.email,
+  .newsletter .button {
+    /*box-sizing:border-box;*/
+    max-width: 300px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .newsletter .button {
+    margin-top: 20px;
+  }
+  .footer {
+    padding: 0;
+  }
+}
+@media (hover: none) {
+  a:hover {
+    background: yellow;
+  }
+  section .our-work .work .description {
+    opacity: 1;
+  }
+}
+/*
+.main-content .cards {
+  width: 990px;
+}
+.main-content div.card {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.main-content .card {
+  display: block;
+  float: left;
+  width: 280px;
+  margin: 0 30px 30px 0;
+  height: 300px;
+  padding: 10px;
+  background-color: #fff;
+  text-decoration: none;
+  color: #474662;
+  border-radius: 4px;
+  box-shadow: 0 0 40px 0 rgba(64, 47, 103, 0.10);
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.main-content .card:active,
+.main-content .card:visited,
+.main-content .card:hover,
+.main-content .card:focus {
+  text-decoration: none;
+  color: #474662;
+}
+.main-content .card img {
+  width: 100%;
+  vertical-align: middle;
+}
+.main-content .card h2 {
+  text-decoration: none;
+  color: #474662;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  opacity: .8;
+}
+.main-content .card p {
+  text-decoration: none;
+  color: #474662;
+  font-size: 12px;
+  text-align: center;
+  opacity: .8;
+}
+.main-content .card:hover h2,
+.main-content .card:hover p {
+  opacity: 1;
+}
+.main-content div.card {
+  color: #A3A3B0;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 300px;
+  vertical-align: middle;
+}
+.main-content div.card > span {
+  display: none;
+}
+.main-content div.card:hover > span {
+  display: initial;
+  opacity: .3;
+}
+*/
