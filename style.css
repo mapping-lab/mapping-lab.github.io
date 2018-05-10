@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+  }
 body {
   background-color: #fff;
   padding: 0px;
@@ -144,7 +147,7 @@ section > h2 {
 }
 section .more-info p {
   text-align: justify;
-  margin: 40px 120px;
+  margin: 120px;
   font-size: 28px;
   line-height: 38px;
 }
@@ -206,6 +209,23 @@ section .our-work .work .description p {
   padding: 0 100px;
 }
 
+@media (max-width: 600px) {
+  section .what-we-do {
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  section .what-we-do div {
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+
+
 @media (max-width: 960px) {
   .container {
     display: block;
@@ -251,14 +271,9 @@ section .our-work .work .description p {
     opacity: 1;
   }
   section .what-we-do {
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 100%;
   }
   section .what-we-do div {
-    /*width: 100%;*/
-    /*float: left;*/
-    /*clear: both;*/
     margin-bottom: 40px;
     text-align: center;
   }
@@ -285,74 +300,3 @@ section .our-work .work .description p {
     opacity: 1;
   }
 }
-/*
-.main-content .cards {
-  width: 990px;
-}
-.main-content div.card {
-  background-color: #fff;
-  background-color: rgba(255, 255, 255, 0.3);
-}
-.main-content .card {
-  display: block;
-  float: left;
-  width: 280px;
-  margin: 0 30px 30px 0;
-  height: 300px;
-  padding: 10px;
-  background-color: #fff;
-  text-decoration: none;
-  color: #474662;
-  border-radius: 4px;
-  box-shadow: 0 0 40px 0 rgba(64, 47, 103, 0.10);
-  -webkit-transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -ms-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-}
-.main-content .card:active,
-.main-content .card:visited,
-.main-content .card:hover,
-.main-content .card:focus {
-  text-decoration: none;
-  color: #474662;
-}
-.main-content .card img {
-  width: 100%;
-  vertical-align: middle;
-}
-.main-content .card h2 {
-  text-decoration: none;
-  color: #474662;
-  font-size: 13px;
-  font-weight: 700;
-  text-align: center;
-  opacity: .8;
-}
-.main-content .card p {
-  text-decoration: none;
-  color: #474662;
-  font-size: 12px;
-  text-align: center;
-  opacity: .8;
-}
-.main-content .card:hover h2,
-.main-content .card:hover p {
-  opacity: 1;
-}
-.main-content div.card {
-  color: #A3A3B0;
-  font-size: 13px;
-  font-weight: 700;
-  text-align: center;
-  line-height: 300px;
-  vertical-align: middle;
-}
-.main-content div.card > span {
-  display: none;
-}
-.main-content div.card:hover > span {
-  display: initial;
-  opacity: .3;
-}
-*/
